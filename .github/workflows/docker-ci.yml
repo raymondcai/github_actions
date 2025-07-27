@@ -31,5 +31,5 @@ jobs:
           file: ./app/Dockerfile
           push: true
           tags: |
-            ${{ env.IMAGE_NAME }}:1.0
+            ${{ env.IMAGE_NAME }}:0.1
             ${{ env.IMAGE_NAME }}:${{ github.sha }}
